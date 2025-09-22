@@ -17,12 +17,12 @@ int main()
 
     // Обчислення 
     z1 = (sqrt((3 * m + 2) * (3 * m + 2) - 24 * m)) / (3 * sqrt(m) - 2 / sqrt(m));
-    //z2 = sqrt(m);
+    z2 = sqrt(m);
 
     // Вивід
     cout << endl;
     cout << "z1 = " << z1 << endl;
-    //cout << "z2 = " << z2 << endl;
+    cout << "z2 = " << z2 << endl;
 
     cin.get();
     return 0;
